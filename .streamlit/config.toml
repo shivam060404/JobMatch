@@ -1,0 +1,41 @@
+# Streamlit Cloud Configuration
+# Tech Job Recommender Dashboard
+
+[global]
+# Development mode (set to false in production)
+developmentMode = false
+
+[server]
+# Server settings
+headless = true
+enableCORS = true
+enableXsrfProtection = false
+
+# File watcher (disable in production for performance)
+fileWatcherType = "none"
+
+# Max upload size (MB)
+maxUploadSize = 10
+
+[browser]
+# Browser settings
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[theme]
+# Custom theme for Tech Job Recommender
+primaryColor = "#1976d2"
+backgroundColor = "#ffffff"
+secondaryBackgroundColor = "#f5f5f5"
+textColor = "#262730"
+font = "sans serif"
+
+[client]
+# Client settings
+showErrorDetails = false
+toolbarMode = "minimal"
+
+[runner]
+# Runner settings
+magicEnabled = true
+fastReruns = true
